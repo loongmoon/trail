@@ -1,0 +1,5 @@
+/target/*
+!/target/trail-*.jar
+/.idea
+*.iml
+/logs

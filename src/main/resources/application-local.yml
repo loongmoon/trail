@@ -1,0 +1,8 @@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka
+    #定时刷新本地缓存时间
+    registry-fetch-interval-seconds: 3
+

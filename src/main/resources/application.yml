@@ -1,0 +1,13 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: trail
+
+  profiles:
+    active: local
+
+  zipkin:
+    service:
+      name: trail
